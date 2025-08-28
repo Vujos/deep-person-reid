@@ -10,12 +10,12 @@ keywords = ["Person Re-Identification", "Deep Learning", "Computer Vision"]
 
 [tool.poetry.dependencies]
 python = "~3.11"
-numpy = "1.23.5"
+numpy = "1.26.4"
 Cython = "0.29.34"
 h5py = "3.8.0"
 six = "1.16.0"
-scipy = "1.11.4"
-matplotlib = "3.8.3"
+scipy = "1.13.1"
+matplotlib = "3.9.4"
 tb-nightly = "2.14.0a20230523"
 future = "0.18.3"
 yacs = "0.1.8"
@@ -31,4 +31,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 torchreid = "torchreid.__main__:main"
-
